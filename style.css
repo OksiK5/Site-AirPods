@@ -504,6 +504,10 @@ ul {
 
 
 @media (max-width: 640px) {
+    .header {
+        min-height: 70vh;
+    }
+
     .header__burger-btn {
         display: block;
     }
