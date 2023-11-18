@@ -1,2 +1,3 @@
 Верстка сайта по макету Figma
-GitHub Pages: https://oksik5.github.io/Site-AirPods/
+
+Ссылка на GitHub Pages: https://oksik5.github.io/Site-AirPods/
