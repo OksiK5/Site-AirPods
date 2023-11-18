@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Наушники</title>
+</head>
+<body>
+    <div class="body__wraper">
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                
+                <a class="logo" href="#!">
+                    <img src="images/logo.svg" alt="Логотип">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#!" class="menu__link">Инфо</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#!" class="menu__link">Коллекция</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#!" class="menu__link">Контакты</a>
+                        </li>                          
+                    </ul> 
+                    <button class="btn"> 
+                        <a href="#!">Купить</a>
+                    </button>                    
+                </nav>
+                <button class="header__burger-btn" id="burger">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+            <div class="header__content">
+                <h1 class="title"><span class="title--air">Air</span><span class="title--pod">Pod</span><span class="title--s">S</span><span class="title--m">M</span><span class="title--ax">AX</span>
+                </h1>
+                <div class="header__content-images">
+                    <img class="img__airpods content-item color--pink" src="./images/airpods-pink.png" alt="Наушники розовые">
+                    <img class="img__airpods content-item color--skyblue content-item--active" src="./images/airpods-skyblue.png" alt="Наушники голубые">
+                    <img class="img__airpods content-item color--spacegray" src="./images/airpods-spacegray.png" alt="Наушники темно-серые">
+                    <img class="img__airpods content-item color--green" src="./images/airpods-green.png" alt="Наушники зеленые">
+                    <img class="img__airpods content-item color--white" src="./images/airpods-white.png" alt="Наушники белые">
+                </div>
+            </div>
+        </div>
+    </header> 
+    <main class="main">
+        <section class="choose-color">
+            <div class="container">
+                <div class="choose-color__title">Выбери свой цвет</div>
+                <p class="choose-color__text">
+                    Идеальный баланс между чистотой Hi-Fi и волшебством AirPods.
+                    Максимальное качество звука.
+                </p>
+            </div>
+            <div class="choose-color__list">
+                <button class="choose-color__btn" data-button="color--green">
+                    <img src="./images/airpods-green-2.png" alt="Наушники зеленые">
+                </button>
+                <button class="choose-color__btn" data-button="color--white">
+                    <img src="./images/airpods-white-2.png" alt="Наушники белые">
+                </button>
+                <button class="choose-color__btn" data-button="color--pink">
+                    <img src="./images/airpods-pink-2.png" alt="Наушники розовые">
+                </button>
+                <button class="choose-color__btn" data-button="color--spacegray">
+                    <img src="./images/airpods-spacegray-2.png" alt="Наушники темно-серые">
+                </button>
+                   <button class="choose-color__btn choose-color__btn--active" data-button="color--skyblue">
+                    <img src="./images/airpods-skyblue-2.png" alt="Наушники голубые">
+                </button>
+            </div>
+        </section>
+        <section class="composition">
+            <div class="container">
+                <h2 class="composition__title main__title">Весьма оригинальная композиция</h2>
+                <p class="composition__text">Представляем новое изобретение полноразмерных наушников. 
+                AirPods Max, от подушки до оголовья, разработаны с учетом акустической изоляции и адаптированы к различным формам головы, поэтому вы можете с удовольствием погрузиться в чистоту звука.</p> 
+                <div class="composition__inner">
+                    <div class="composition__inner-text">
+                        <p>Оголовье изготовлено из дышащей сетки, распределяющей вес и уменьшающей давление на голову.</p>
+                        <p>Конструкция из нержавеющей стали покрыта мягким на ощупь материалом, что обеспечивает замечательную гармонию между прочностью, гибкостью и комфортом.</p>
+                        <p>Телескопические рычаги расширяются и остаются в любом положении, которое вы хотите, позволяя вам сохранять форму и изоляцию.</p>
+                    </div>
+                    <img class="content-item color--skyblue content-item--active"  src="./images/skyblue_side.jpg" alt="">
+                    <img class="content-item color--green" src="./images/green_side.jpg" alt="">
+                    <img class="content-item color--spacegray" src="./images/spacegray_side.jpg" alt="">
+                    <img class="content-item color--pink" src="./images/pink_side.jpg" alt="">
+                    <img class="content-item color--white" src="./images/white_side.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="case">
+            <div class="container">
+                <h2 class="case__title main__title">Сохраняет заряд батареи</h2>
+                <p class="case__text">При хранении в элегантном и легком чехле Smart Case AirPods Max переходят в режим пониженного энергопотребления для экономии энергии.</p>
+                <img class="case__card content-item color--skyblue content-item--active" src="./images/smartcase-skyblue.jpg" alt="Чехол голубой">
+                <img class="case__card content-item color--green" src="./images/smartcase-green.jpg" alt="Чехол зеленый">
+                <img class="case__card content-item color--pink" src="./images/smartcase-pink.jpg" alt="Чехол розовый">
+                <img class="case__card content-item color--spacegray" src="./images/smartcase-spacegray.jpg" alt="Чехол темно-серый">
+                <img class="case__card content-item color--white" src="./images/smartcase-white.jpg" alt="Чехол белый">
+                <h2 class="energy__title main__title">Остаться в живых</h2>
+                <p class="energy__num">20</p>
+                <p class="energy__text">часов музыки, фильмов и звонков с включенным активным шумоподавлением и пользовательским пространственным звуком. А всего 5 минут зарядки через разъем Lightning дают вам полтора часа звука.</p>
+            </div>
+        </section>
+        <section class="audio">
+             <div class="container">
+                <div class="audio__inner">
+                    <div class="audio__box">
+                        <p class="audio__text" >
+                            Custom Spatial Audio с динамическим отслеживанием положения головы обеспечивает объемное звучание, 
+                            достойное кинотеатра.
+                        </p>
+                        <p class="audio__text">Благодаря встроенным гироскопам и акселерометрам AirPods Max и ваш iPhone, iPad, Mac или Apple TV
+                             распознают малейшие движения головы и сохраняют ровный звук на вашем устройстве.
+                        </p>
+                        <p class="audio__text" >А в Apple Music специальный пространственный звук с динамическим отслеживанием положения головы
+                             создает уникальные трехмерные впечатления от прослушивания.
+                        </p>
+                        <button class="button">
+                        <a href="#!">Купить</a></button>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__contact">
+                <a href="#!" class="footer__link">Найдите ближайшего к вам ритейлера</a>
+                <p class="footer__text">Или позвоните по телефону: 
+                    <a href="tel:800 207 758">800 207 758</a>
+                </p>
+                <a class="logo" href="#!">
+                    <img src="./images/logo-white.png" alt="Логотип">
+                </a>
+            </div>
+            <ul class="footer__list">
+                <li class="footer__item">Copyright © 2023 Apple Inc. </li>               
+                <li class="footer__item">
+                    <a href="#!">Юридическая информация</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#!">Карта сайта</a>
+                </li>
+                <li class="footer__item"><a href="#!">Политика конфиденциальности</a>
+                </li><li class="footer__item">Все права защищены.</li>
+            </ul>
+        </div>
+    </footer> 
+    <script defer src="./main.js"></script>
+    </div>
+</body>
+</html>
