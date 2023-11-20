@@ -830,6 +830,10 @@ ul {
 }
 
 @media (max-width: 360px) {
+    .choose-color {
+        margin: 100px 0;
+    }
+
     .choose-color__title, .main__title {
         font-size: 24px;
     }
