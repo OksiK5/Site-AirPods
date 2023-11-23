@@ -325,7 +325,6 @@ ul {
 .audio {
     width: 100%;
     max-width: 1920px;
-    min-width: 240px;
     height: 240vh;
     background-image: url("./images/audio_figure.jpg");
     background-position: top center;
@@ -353,7 +352,7 @@ ul {
 }
 
 .audio__inner {
-    min-height: 245vh; 
+    min-height: 240vh;
     display: flex;
     justify-content: center;
     align-items: flex-end; 
@@ -688,13 +687,13 @@ ul {
     }
 
     .audio__box {
-        padding-bottom: 0;
+        padding-bottom: 160px;
         max-width: 60%;
     }
 
-    .audio__inner {
+    /*.audio__inner {
         min-height: 213vh;
-    }
+    }*/
 
     .audio__text {
         font-size: 18px;
@@ -742,10 +741,6 @@ ul {
 
     .audio::after {
         bottom: -85px;
-    }
-
-    .audio{
-        height: 180vh;
     }
     
     .audio__box {
@@ -797,7 +792,7 @@ ul {
     }
 
     .audio {
-      height: 100vh;  
+      height: 150vh;  
     }
 
     .audio::after {
@@ -807,7 +802,7 @@ ul {
     .audio__box {
         max-width: 90%;
         gap: 0px;
-        padding-bottom: 610px;    
+        padding-bottom: 580px;    
     } 
 
     .audio__text {
