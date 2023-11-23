@@ -739,13 +739,14 @@ ul {
         font-size: 180px;
     }
 
+    .audio {
+        height: 190vh;
+    }
     .audio::after {
         bottom: -85px;
     }
-    
     .audio__box {
-        padding-bottom: 216px;
-        gap: 10px;
+        padding-bottom: 386px;
     }
 
     .audio__text {
@@ -802,7 +803,7 @@ ul {
     .audio__box {
         max-width: 90%;
         gap: 0px;
-        padding-bottom: 580px;    
+        padding-bottom: 108vh;    
     } 
 
     .audio__text {
